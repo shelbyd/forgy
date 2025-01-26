@@ -9,7 +9,7 @@ repository = "https://github.com/shelbyd/forgy"
 
 [dependencies]
 anymap = "0.12.1"
-forgy_derive = { path = "./forgy_derive" }
+forgy_derive = { version = "0.1.0", path = "./forgy_derive" }
 
 [workspace]
 members = [
