@@ -1,0 +1,13 @@
+[package]
+name = "forgy_derive"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+darling = "0.20.10"
+proc-macro2 = "1.0.93"
+quote = "1.0.38"
+syn = "2.0.96"
+
+[lib]
+proc-macro = true

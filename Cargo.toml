@@ -1,0 +1,17 @@
+[package]
+name = "forgy"
+version = "0.1.0"
+edition = "2021"
+description = "Derive macro for building dependency graphs."
+homepage = "https://docs.rs/forgy"
+documentation = "https://docs.rs/forgy"
+repository = "https://github.com/shelbyd/forgy"
+
+[dependencies]
+anymap = "0.12.1"
+forgy_derive = { path = "./forgy_derive" }
+
+[workspace]
+members = [
+  "forgy_derive",
+]
